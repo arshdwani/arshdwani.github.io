@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Wani;Arshd Rashid;;;
+FN:Arshd Rashid Wani
+TITLE:Software Engineer
+EMAIL;TYPE=INTERNET:arshdwani159@gmail.com
+URL:https://arshdwani.github.io/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/arshd-rashid-wani-658a47394
+X-SOCIALPROFILE;TYPE=github:https://github.com/arshdwani
+NOTE:Backend\, distributed systems and AI evaluation.
+END:VCARD
