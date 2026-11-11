@@ -1,0 +1,11 @@
+{
+  "name": "arshdwani-calling-card",
+  "private": true,
+  "description": "My calling card: plain HTML, CSS and JavaScript.",
+  "scripts": {
+    "dev": "serve --listen 3000 --no-clipboard ."
+  },
+  "devDependencies": {
+    "serve": "14.2.6"
+  }
+}
