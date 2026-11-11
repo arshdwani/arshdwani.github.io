@@ -24,3 +24,5 @@ Then open http://localhost:3000. (`python3 -m http.server 8000` works too, with 
 
 Fork the repo, edit the text in `index.html`, change `--blue` in `style.css` to your color, and update
 `REPO` in `script.js` so the commit log points at your fork.
+
+Pushed from my own terminal.
