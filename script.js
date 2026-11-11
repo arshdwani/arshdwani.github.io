@@ -53,6 +53,14 @@ if (fine && !calm) {
   });
 }
 
+// ---- where am I? ----
+// One repository, three places it runs: GitHub Pages, Vercel, and localhost on my own computer.
+// The header and footer say which one is serving this copy.
+const HOSTS = [[/\.github\.io$/, "GitHub Pages"], [/\.vercel\.app$/, "Vercel"], [/^(localhost|127\.0\.0\.1|\[::1\])$/, "localhost"]];
+const host = HOSTS.find(([re]) => re.test(location.hostname));
+if (location.host) document.getElementById("where").textContent = location.host;
+if (host) document.getElementById("host").textContent = host[1];
+
 // ---- git log ----
 const list = document.getElementById("commits");
 const rtf = new Intl.RelativeTimeFormat("en", { numeric: "auto" });
